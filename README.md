@@ -35,9 +35,21 @@ There are nine different classes a genetic mutation can be classified into => Mu
 ### 2. Exploratory Data Analysis 
 #### 2.1 Distribution of Train,Test,Cv data  (64:20,16)
 
-1. Train.csv
+##### Distribution of yi in Train
 
 ![image](https://user-images.githubusercontent.com/61958476/117840331-ae5cf480-b299-11eb-833f-9b9ddc7ec0ae.png)
+
+##### Distribution of yi in Test
+
+![image](https://user-images.githubusercontent.com/61958476/117840724-0d226e00-b29a-11eb-9d67-056760d5e116.png)
+
+##### Distribution of yi in CV
+![image](https://user-images.githubusercontent.com/61958476/117840804-1c092080-b29a-11eb-95c6-113d7b64aa1e.png)
+
+#### Observation: Here we have done Stratified Train Test CV split so that we get equal amount of distribution in all 3 plots as we can see and by looking at this Histogram we can come into concluison that Class Label {7,4,1,2} consist of more than 60% - 70% of data and so this is an Imbalanced Dataset 
+
+
+
 
 
 
