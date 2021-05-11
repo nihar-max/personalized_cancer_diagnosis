@@ -18,3 +18,34 @@
     gene variations
  3. Spend some time on analyzing Text [i.e. Evidence / Reseach work] amd after that Determine that patient
     belongs to which of the class out of (1,2,3,4....,9)
+    
+#### Information gathered from: https://www.kaggle.com/c/msk-redefining-cancer-treatment/discussion/35336#198462
+
+### 1.3 Data overview:
+1. Training variants (ID,Gene,Variations,Classlabel)
+2. Training_Texr (ID, TEXT)
+
+### 1.4 Type of Machine learning problem
+There are nine different classes a genetic mutation can be classified into => Multi class classification problem
+
+### 1.5 Performance Metric
+1. Multi-class Log loss
+2. Confusion matrix
+
+### 2. Exploratory Data Analysis 
+#### 2.1 Distribution of Train,Test,Cv data  (64:20,16)
+
+1. Train.csv
+![image](https://user-images.githubusercontent.com/61958476/117840331-ae5cf480-b299-11eb-833f-9b9ddc7ec0ae.png)
+Number of data points in class 1 : 609 ( 28.672 %)
+Number of data points in class 2 : 439 ( 20.669 %)
+Number of data points in class 3 : 363 ( 17.09 %)
+Number of data points in class 4 : 289 ( 13.606 %)
+Number of data points in class 5 : 176 ( 8.286 %)
+Number of data points in class 6 : 155 ( 7.298 %)
+Number of data points in class 7 : 57 ( 2.684 %)
+Number of data points in class 8 : 24 ( 1.13 %)
+Number of data points in class 9 : 12 ( 0.565 %)
+
+
+
