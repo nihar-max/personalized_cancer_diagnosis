@@ -49,6 +49,19 @@ There are nine different classes a genetic mutation can be classified into => Mu
 
 #### Observation: Here we have done Stratified Train Test CV split so that we get equal amount of distribution in all 3 plots as we can see and by looking at this Histogram we can come into concluison that Class Label {7,4,1,2} consist of more than 60% - 70% of data and so this is an Imbalanced Dataset 
 
+### 2.1 Univariate Analysis
+#### 2.1.2 Univariate Analysis on Gene feature
+
+#### Plot CDF for this distrbutions of gene feature
+    s = sum(unique_genes.values)
+    h = unique_genes.values/s
+    c = np.cumsum(h)
+    plt.plot(c,label='Cumulative distribution of Genes')
+    plt.grid()
+    plt.legend()
+    plt.show()
+    
+![image](https://user-images.githubusercontent.com/61958476/118019833-0f0e2f00-b377-11eb-91f2-9831870be97b.png)
 
 
 
