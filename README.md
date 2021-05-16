@@ -88,10 +88,18 @@ Observation: Out of 225 unique genes only top 50 genes consist more than 70% of 
 
 ## 3. Machine Learning models used
 ### 1. Multinomial Naive Bayes 
-### 1. Multinomial Naive Bayes 
-### 1. Multinomial Naive Bayes 
-### 1. Multinomial Naive Bayes 
-### 1. Multinomial Naive Bayes 
+### 2. K- Nearest Neigbour
+### 3. Logistic Regression with Class Balancing 
+### 4.  Logistic Regression without Class Balancing  
+### 5. Linear SVM
+
+### Compare log-loss on
+Parameters        KNN || Naive Bayes || Logistic Reg (with CB) || Logistic Reg(without CB) || Linear SVM
+
+best_alpha         7       0.001           0.0001                    0.0001                    0.0001
+Train log loss   0.97      0.77            0.59                      0.58                      0.62
+Test log loss    1.14      1.14            0.98                      0.99                      1.14
+CV log loss      1.14      1.44            0.96                      0.99                      1.18
 
 
 
