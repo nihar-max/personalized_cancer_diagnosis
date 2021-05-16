@@ -93,13 +93,8 @@ Observation: Out of 225 unique genes only top 50 genes consist more than 70% of 
 ### 4.  Logistic Regression without Class Balancing  
 ### 5. Linear SVM
 
-### Compare log-loss on
-Parameters        KNN || Naive Bayes || Logistic Reg (with CB) || Logistic Reg(without CB) || Linear SVM
+![image](https://user-images.githubusercontent.com/61958476/118392975-14f75f00-b65a-11eb-8b24-8f554260760d.png)
 
-best_alpha         7       0.001           0.0001                    0.0001                    0.0001
-Train log loss   0.97      0.77            0.59                      0.58                      0.62
-Test log loss    1.14      1.14            0.98                      0.99                      1.14
-CV log loss      1.14      1.44            0.96                      0.99                      1.18
 
 
 
