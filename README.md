@@ -69,6 +69,30 @@ There are nine different classes a genetic mutation can be classified into => Mu
 
 Observation: Out of 225 unique genes only top 50 genes consist more than 70% of data and rest only 30%
 
+#### 2.1.3 Univariate Analysis on Variation feature
+
+##### Q.How many categories are there and How they are distributed?
+    unique_genes = train_df["Variation"].value_counts()
+>>> (1941,)
+
+##### Plot CDF for this distrbutions of gene feature
+    s = sum(unique_variation.values)
+    h = unique_variation.values/s
+    c = np.cumsum(h)
+    plt.plot(c,label='Cumulative distribution of Genes')
+    plt.grid()
+    plt.legend()
+    plt.show()
+    
+![image](https://user-images.githubusercontent.com/61958476/118392874-7539d100-b659-11eb-8218-93ba92c78950.png)
+
+## 3. Machine Learning models used
+### 1. Multinomial Naive Bayes 
+### 1. Multinomial Naive Bayes 
+### 1. Multinomial Naive Bayes 
+### 1. Multinomial Naive Bayes 
+### 1. Multinomial Naive Bayes 
+
 
 
 
